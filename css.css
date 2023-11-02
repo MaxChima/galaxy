@@ -1,0 +1,90 @@
+body {
+		background:#08187F; /*  Фоновый цвет и фоновый рисунок*/
+		color: #000; /* Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+}
+
+
+p.text{
+	background:#712E0E;
+	color:#69B777;
+	font: 15pt sans-serif;
+	transition:1s;
+}
+
+
+div.center{
+	padding:30px;
+	font-size:30;
+	color:#FFA500;
+}
+
+
+table.oo{
+	background-color:#660066;
+	border: 6px double ;
+}
+
+td.main{
+	background: url(img/main/cosmos_back.jpg); 
+	background-size: 100%;
+}
+td.sboky {
+	background: url(img/main/Dira.jpg); 
+	background-repeat: repeat-y;
+	background-size: 100%;
+	transition: 1s;
+	transition-delay: 2s;
+}
+td.sboky:hover {
+	background: url(img/main/Dira.jpg); 
+	background-repeat: repeat-y;
+	background-size: 100%;
+	transform: rotate(360deg);
+	transition: 2s;
+}
+
+
+td.top {
+	background: url(img/main/up_index.jpg);
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	
+}
+
+
+td.top_s{
+	height:60px;
+    position:relative;
+    left: 0px;
+	transition: 0.5s;
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+
+}
+td.top_s:hover{
+	transition: 0.5s;
+	position:relative;
+    left: 15px;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+
+
+a:link {
+  color: #FF9401; 
+  border-bottom: 1px dashed; 
+}
+a:visited {
+  color: #FF9401;
+}
+a:hover {
+  color: #1241AB; 
+  border-bottom: .07em solid;
+}
+a:active {
+  color: #497DDD; 
+  border-bottom: 1px dashed;
+}
+
