@@ -13,6 +13,11 @@ p.text{
 	transition:1s;
 }
 
+table.class{
+	color:#FFA500;
+	font-size:30;
+	padding:30px;
+}
 
 div.center{
 	padding:30px;
@@ -45,7 +50,6 @@ td.sboky:hover {
 	transition: 2s;
 }
 
-
 td.top {
 	background: url(img/main/up_index.jpg);
 	background-repeat: repeat-x;
@@ -53,24 +57,41 @@ td.top {
 	
 }
 
-
 td.top_s{
 	height:60px;
     position:relative;
     left: 0px;
 	transition: 0.5s;
-	background-repeat: no-repeat;
-	background-size: 90% 90%;
 
 }
 td.top_s:hover{
-	transition: 0.5s;
+	height:60px;
 	position:relative;
     left: 15px;
-	background-repeat: no-repeat;
-	background-size:100% 100%;
+	transition: 0.5s;
 }
 
+td.main_class{
+	background: url(img/class/cosmos_back.jpg); 
+	background-size: 100%;
+}
+
+img.class{
+	height:260px;
+	width:260px;
+	padding:5px;
+	transition:1s;
+	transition-delay:0.5s;
+	border: 2px solid #222222;
+}
+img.class:hover{
+	height:130px;
+	width:130px;
+	padding:0px;
+	transition:0.4s;
+	transform: scale(4,4);
+	border: 5px solid #637EC7;
+}
 
 a:link {
   color: #FF9401; 
