@@ -93,6 +93,11 @@ img.class:hover{
 	border: 5px solid #637EC7;
 }
 
+td.main_neighbour{
+	background: url(img/neighbour/back.jpg); 
+	background-size: 100%;
+}
+
 a:link {
   color: #FF9401; 
   border-bottom: 1px dashed; 
